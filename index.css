@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* navbar section  */
+.navbar {
+  display: flex;
+  background-color: #31363c;
+  color: white;
+  padding: 10px 5%;
+  height: 50px;
+  box-sizing: border-box;
+}
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  position: relative;
+  left: 60%;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-list > li {
+  margin: 14px;
+  cursor: pointer;
+}
+
+/* header section  */
+.header-section {
+  display: flex;
+  padding: 30px 5%;
+}
+
+.band-img {
+  width: 700px;
+}
+
+.right-section {
+  width: 400px;
+}
+
+.just-announced {
+  position: relative;
+  width: 300px;
+  margin-left: 50px;
+  border: 1px solid rgb(196, 195, 195);
+}
+
+/* table data  */
+.table-data {
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.table-heading {
+  background-color: #eee;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+
+.table-data tr td {
+  height: 40px;
+  margin-top: 30px;
+  border-bottom: 1px solid #8c8888;
+}
+
+.table-footer-caption {
+  margin: 20px;
+}
+
+.email-box {
+  margin: 50px;
+}
+.email {
+  margin-top: 20px;
+}
+.email > input {
+  height: 27px;
+  border: 1px solid #cac2c2;
+  padding-left: 5px;
+}
+input:focus {
+  outline: 1px solid #cac2c2;
+}
+
+.email button {
+  background-color: #0a6767;
+  color: white;
+  border: none;
+  height: 27px;
+  width: 100px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+/* upcoming-shows */
+.upcoming-shows {
+  margin-top: 50px;
+}
+
+.show-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 150px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card > img {
+  width: 150px;
+}
+
+.card > p {
+  color: gray;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.card > button {
+  background-color: #1da1a1;
+  color: white;
+  width: 80px;
+  border: none;
+  height: 24px;
+  border-radius: 2px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* footer  */
+footer {
+  display: flex;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+.credit p {
+  font-size: 13px;
+}
+
+.social-media {
+  display: flex;
+  position: relative;
+  left: 70%;
+}
+footer button {
+  /* margin-right: 10px; */
+  padding: 2%;
+  border: 1px solid #a99e9e;
+  height: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
