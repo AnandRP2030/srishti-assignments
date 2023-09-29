@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(184, 179, 179);
 }
 h1 {
   text-align: center;
@@ -59,22 +58,20 @@ input::-webkit-inner-spin-button {
   height: 45px;
   width: 45px;
   font-size: 20px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
   display: flex;
   cursor: pointer;
+  border: none;
+  border-radius: 50%;
 }
 
 .bottom-row {
-  width: 52%;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  left: 43%;
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 29%;
 }
 
 .division-key {
