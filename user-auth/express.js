@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const { UserModel } = require("./user.model.js");
+const {MONGO_DB_URL} = require('./config.js');
 
 const app = express();
 const port = 3000;
@@ -57,8 +58,7 @@ app.post("/login", async (req, res) => {
   }
 });
 
-const MONGO_DB_URL =
-  "mongodb+srv://anandrp2030:anandrp2030@cluster0.yzoh90v.mongodb.net/";
+
 
 mongoose
   .connect(MONGO_DB_URL)
