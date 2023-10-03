@@ -1,0 +1,10 @@
+My Name is Anand R P. 
+I am living in Trivandrum. 
+I graduated in 2021 from Kerala University.
+I have four memebers in my family. I am the youngest in my family.
+I like playing chess and reading books.
+ Company Details
+ Company Name: Srishty Innovatives, 
+ Location: Trivandrum,
+ Position: MERN Trainer cum Developer, 
+ Official Mail id: anandrp.sics@gmail.com
