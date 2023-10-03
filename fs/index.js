@@ -9,7 +9,6 @@ I like playing chess and reading books.`;
 
 const path = "myFolder/myFile.txt";
 
-// create a directory myfolder
 function createADirectory() {
   if (!fs.existsSync("myFolder")) {
     fs.mkdir("myFolder", (err) => {
@@ -24,7 +23,7 @@ function createADirectory() {
   createFile();
 }
 
-// 8  and a file myFile.txt which contains your self introduction.
+// 8  create a directory myfolderand a file myFile.txt which contains your self introduction.
 function createFile() {
   fs.writeFile(path, selfIntroduction, (err) => {
     if (err) {
