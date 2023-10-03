@@ -7,8 +7,24 @@ I graduated in 2021 from Kerala University.
 I have four memebers in my family. I am the youngest in my family.
 I like playing chess and reading books.`;
 
-const path = "myFile.txt";
+const path = "myFolder/myFile.txt";
 
+// create a directory myfolder
+function createADirectory() {
+  if (!fs.existsSync("myFolder")) {
+    fs.mkdir("myFolder", (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log(`Folder created successfully`);
+      }
+    });
+  }
+
+  createFile();
+}
+
+// 8  and a file myFile.txt which contains your self introduction.
 function createFile() {
   fs.writeFile(path, selfIntroduction, (err) => {
     if (err) {
@@ -27,6 +43,7 @@ const companyDetails = `
  Position: MERN Trainer cum Developer, 
  Official Mail id: anandrp.sics@gmail.com`;
 
+// 9 . append the file with your company details.
 function appendCompanyDetails() {
   fs.appendFile(path, companyDetails, (err) => {
     if (err) {
@@ -38,8 +55,9 @@ function appendCompanyDetails() {
   });
 }
 
+// 10. copy the file to myFile2.txt
 function copyNewFile() {
-  fs.copyFile(path, "myFile2.txt", (err) => {
+  fs.copyFile(path, "myFolder/myFile2.txt", (err) => {
     if (err) {
       console.log(err);
     } else {
@@ -49,6 +67,7 @@ function copyNewFile() {
   });
 }
 
+// 11. Delete the file myFile.txt
 function deleteAFile() {
   fs.unlink(path, (err) => {
     if (err) {
@@ -59,4 +78,4 @@ function deleteAFile() {
   });
 }
 
-createFile();
+createADirectory();
