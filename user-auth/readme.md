@@ -1,4 +1,4 @@
-## Success ful Registrtion
+## Successful Registration
 <img src="./asset/registration.png" alt="img">
 
 ## Login Failed
