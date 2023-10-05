@@ -1,0 +1,145 @@
+.container-box {
+  width: 27rem;
+  height: 650px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 5px 4px;
+  margin-top: 39px;
+  margin: auto;
+}
+
+.active-heading {
+  text-align: center;
+  font-weight: 800;
+}
+.heading {
+  background-color: #b64b39;
+  border-radius: 5px;
+}
+
+.heading p {
+  text-align: center;
+  color: white;
+}
+
+/* calculate-box  */
+.calculate-box {
+  height: 300px;
+  background-color: #e8e8e8;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.age-category {
+  display: flex;
+  width: 280px;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 10px;
+  box-sizing: border-box;
+  height: 40px;
+}
+.select-age {
+  height: 27px;
+  width: 132px;
+}
+
+.user-inputs {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  height: 125px;
+}
+.user-inputs > input {
+  height: 15px;
+}
+.user-inputs div {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.user-inputs div input,
+select {
+  height: 25px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.user-inputs > .bottom-row {
+  display: flex;
+  width: 150px;
+}
+.user-inputs > .bottom-row input {
+  width: 60%;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+.btn-box button {
+  border-radius: 5px;
+}
+
+.ans-box p {
+  margin-bottom: 0;
+}
+
+.bmi {
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* status-box  */
+.status-box {
+  padding-top: 10px;
+}
+.status-box > div {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.status-box > div table td {
+  padding-left: 10px;
+}
+
+.status-box > div table {
+  width: 80%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  height: 181px;
+}
+
+.status-box > div table th {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.under-weight {
+  background-color: #ffe189;
+}
+
+.normal-weight {
+  background-color: #8cd47e;
+}
+
+.over-weight {
+  background-color: #ffb54c;
+}
+.obese {
+  background-color: #ff6961;
+}
